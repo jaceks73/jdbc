@@ -17,7 +17,7 @@ public class Database {
 
     public Database() {
         try {
-            Class.forName("com.myql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             System.out.println("brak drivera do bazy");
             System.exit(-1);
